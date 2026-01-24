@@ -76,6 +76,10 @@ tests: ; $(info $(M) test suite…) @
 deb: ; $(info $(M) building Debian package…) @
 	$Q VERSION=$(VERSION) DIST=$(DIST) ./debian.sh
 
+.PHONY: apk
+apk: ; $(info $(M) building Alpine package…) @
+	$Q VERSION=$(VERSION) DIST=$(DIST) ./alpine.sh
+
 .PHONY: get-lint
 get-lint: ; $(info $(M) downloading go-lint…) @
 	$Q test -x $(GOLINT) || sh -c $(GOLINT) --version 2> /dev/null| grep $(GOLINT_VERSION)  || curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s $(GOLINT_VERSION)
