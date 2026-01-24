@@ -17,12 +17,10 @@ require (
 	github.com/kdomanski/iso9660 v0.4.0
 	github.com/kowabunga-cloud/common v0.64.1
 	github.com/matcornic/hermes v1.3.0
-	github.com/mdlayher/arp v0.0.0-20220512170110-6706a2966875
 	github.com/netdata/go.d.plugin v0.58.1
 	github.com/prometheus/client_golang v1.23.2
 	github.com/seancfoley/ipaddress-go v1.7.1
 	github.com/sethvargo/go-password v0.3.1
-	github.com/vishvananda/netlink v1.3.1
 	github.com/wagslane/go-password-validator v0.3.0
 	go.mongodb.org/mongo-driver/v2 v2.4.1
 	golang.org/x/crypto v0.46.0
@@ -52,13 +50,9 @@ require (
 	github.com/hbollon/go-edlib v1.7.0 // indirect
 	github.com/imdario/mergo v0.3.16 // indirect
 	github.com/jaytaylor/html2text v0.0.0-20230321000545-74c2419ad056 // indirect
-	github.com/josharian/native v1.1.0 // indirect
 	github.com/klauspost/compress v1.18.2 // indirect
 	github.com/lorenzosaino/go-sysctl v0.3.1 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect
-	github.com/mdlayher/ethernet v0.0.0-20220221185849-529eae5b6118 // indirect
-	github.com/mdlayher/packet v1.1.2 // indirect
-	github.com/mdlayher/socket v0.5.1 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
@@ -74,7 +68,6 @@ require (
 	github.com/tredoe/osutil v1.5.0 // indirect
 	github.com/vanng822/css v1.0.1 // indirect
 	github.com/vanng822/go-premailer v1.25.0 // indirect
-	github.com/vishvananda/netns v0.0.5 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
