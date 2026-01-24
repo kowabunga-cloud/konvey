@@ -10,7 +10,7 @@ import (
 	"os"
 
 	"github.com/kowabunga-cloud/common/klog"
-	"github.com/kowabunga-cloud/kowabunga/kowabunga/konvey"
+	"github.com/kowabunga-cloud/konvey/internal/konvey"
 )
 
 func main() {

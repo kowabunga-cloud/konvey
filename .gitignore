@@ -9,14 +9,7 @@ debian/debhelper-build-stamp
 debian/files
 debian/*.debhelper
 debian/*.substvars
-debian/kowabunga-kahuna/
-debian/kowabunga-kawaii-agent/
 debian/kowabunga-konvey-agent/
 tests
 tmp
-node_modules/
-package-lock.json
-package.json
-yarn.lock
-openapitools.json
 coverage.txt
