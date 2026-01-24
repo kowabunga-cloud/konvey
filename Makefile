@@ -123,13 +123,6 @@ konvey: ; $(info $(M) building Konvey agent…) @
 		-ldflags='$(DEBUG)' \
 		-o $(BINDIR) ./cmd/konvey
 
-.PHONY: kowarp
-kowarp: ; $(info $(M) building Kowarp agent…) @
-	$Q go build \
-                -gcflags="kowabunga/...=-e" \
-                -ldflags='$(DEBUG)' \
-                -o $(BINDIR) ./cmd/kowarp
-
 .PHONY: build
 build: kahuna kawaii konvey
 
