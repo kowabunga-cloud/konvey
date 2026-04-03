@@ -1,6 +1,6 @@
 module github.com/kowabunga-cloud/konvey
 
-go 1.25.0
+go 1.26.1
 
 require github.com/kowabunga-cloud/common v0.64.1
 
