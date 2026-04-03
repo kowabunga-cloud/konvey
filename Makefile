@@ -78,7 +78,7 @@ lint: get-lint ; $(info $(M) running go-lint…) @
 
 .PHONY: get-govulncheck
 get-govulncheck: ; $(info $(M) downloading govulncheck…) @
-	$Q test -x $(GOVULNCHECK) || GOBIN="$(PWD)/$(BINDIR)/" go install golang.org/x/vuln/cmd/govulncheck@$latest
+	$Q test -x $(GOVULNCHECK) || GOBIN="$(PWD)/$(BINDIR)/" go install golang.org/x/vuln/cmd/govulncheck@latest
 
 .PHONY: vuln
 vuln: get-govulncheck ; $(info $(M) running govulncheck…) @ ## Check for known vulnerabilities
