@@ -2,9 +2,6 @@
 # Apache License, Version 2.0 (see LICENSE or https://www.apache.org/licenses/LICENSE-2.0.txt)
 # SPDX-License-Identifier: Apache-2.0
 
-VERSION=0.64.1
-DIST=noble
-
 #export GOOS=linux
 #export GOARCH=amd64
 
@@ -69,7 +66,7 @@ tests: ; $(info $(M) test suite…) @
 
 .PHONY: deb
 deb: ; $(info $(M) building Debian package…) @
-	$Q VERSION=$(VERSION) DIST=$(DIST) ./debian.sh
+	$Q ./debian.sh
 
 .PHONY: get-lint
 get-lint: ; $(info $(M) downloading go-lint…) @
