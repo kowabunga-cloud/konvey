@@ -1,3 +1,33 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [0.64.2](https://github.com/kowabunga-cloud/konvey/compare/v0.64.1...v0.64.2) (2026-04-03)
+
+### Chores
+
+* add codeowners ([82c0abc](https://github.com/kowabunga-cloud/konvey/commit/82c0abc423cc58315b95b58f5656efaa361f6d0a))
+* add editor config ([fc889fb](https://github.com/kowabunga-cloud/konvey/commit/fc889fb415c4d82c1021600fc26f15b581962396))
+* add pre-commit hooks ([8b5efe9](https://github.com/kowabunga-cloud/konvey/commit/8b5efe9bb6e5d55ff7f32c8c92814882fa2000ed))
+* add semantic-release suppport ([7bf6193](https://github.com/kowabunga-cloud/konvey/commit/7bf619376a4f3474eb1eb8e838ab40f72e050156))
+* always use latest version of build tools ([26ad8ad](https://github.com/kowabunga-cloud/konvey/commit/26ad8ad9ddb10fab7504dd63382eb359a40f5053))
+* extend unit tests ([1c41379](https://github.com/kowabunga-cloud/konvey/commit/1c413797e409acf3522c24079a53671c57fefdae))
+* fix govuln version name ([7ac8d6d](https://github.com/kowabunga-cloud/konvey/commit/7ac8d6d535032922963dcd93aee60d3e33cda82e))
+* ignore more files ([de47c83](https://github.com/kowabunga-cloud/konvey/commit/de47c83744671f9d05822b708e7da0660047019a))
+* re-use global action workflows ([efe839d](https://github.com/kowabunga-cloud/konvey/commit/efe839df89b391feb9358c976eb3e78c9d25740b))
+* remove APK build support ([f443498](https://github.com/kowabunga-cloud/konvey/commit/f44349899bff4b28866de2941ed902bb13e7e65b))
+* require go 1.26 build ([194b61b](https://github.com/kowabunga-cloud/konvey/commit/194b61b36130d4a0a5206c428d81a08260f86edb))
+* simplify debian packaging ([f2651bd](https://github.com/kowabunga-cloud/konvey/commit/f2651bd0da5a0922ba2270c935570d4fda24b827))
+* update build dependencies ([f000271](https://github.com/kowabunga-cloud/konvey/commit/f00027139d7bba9ada5cd84bb71f50235b94930f))
+* updated logo ([af1a6c6](https://github.com/kowabunga-cloud/konvey/commit/af1a6c6db9ef0d2765576d708093c98182c87c17))
+
+### Documentation
+
+* add Claude description ([d28017d](https://github.com/kowabunga-cloud/konvey/commit/d28017d8534e461791af4112ef48ff0339df7bdf))
+* fix changelog ([13bb6e8](https://github.com/kowabunga-cloud/konvey/commit/13bb6e8dca0d86914cc2a80ba18e7556bded909d))
+* fix trailing whitespaces ([62f99a8](https://github.com/kowabunga-cloud/konvey/commit/62f99a887d9c59fe49a21e788d2f03bdd00ad90c))
+* updated README ([93152c4](https://github.com/kowabunga-cloud/konvey/commit/93152c43579d13947f84bfd8a5615bbe8b9399df))
+
 ## 0.64.1 (2025-12-30)
 * **NEW**: use external Kowabunga 'common' package.
 
