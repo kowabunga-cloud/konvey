@@ -1,3 +1,4 @@
+.claude/
 bin/
 dist/
 publish/
@@ -13,3 +14,4 @@ debian/kowabunga-konvey-agent/
 tests
 tmp
 coverage.txt
+coverage.out
