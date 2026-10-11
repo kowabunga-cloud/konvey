@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.64.3](https://github.com/kowabunga-cloud/konvey/compare/v0.64.2...v0.64.3) (2026-10-11)
+
+### Chores
+
+* add GitHub Sponsors FUNDING.yml ([0509dc7](https://github.com/kowabunga-cloud/konvey/commit/0509dc7ccd81a05a3a7ab1c69dae5e653c60f181))
+* update dependencies ([0dcb230](https://github.com/kowabunga-cloud/konvey/commit/0dcb230b1a70dc57ab882cc0181cac36019799df))
+
 ## [0.64.2](https://github.com/kowabunga-cloud/konvey/compare/v0.64.1...v0.64.2) (2026-04-03)
 
 ### Chores
