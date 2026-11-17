@@ -1,2 +1,1 @@
 bin/konvey                                                     /usr/bin
-debian/kowabunga-konvey-agent.service                          /lib/systemd/system
